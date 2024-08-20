@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+    line-height: 1.6;
+    background-color:white;
+}
+
+header {
+    background: blueviolet;
+    color: #fff;
+    padding: 40px 1;
+    height: 80px;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+
+}
+nav ul li:hover{
+     font-size: 50px;
+     font-style: italic;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 36px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.home {
+    text-align: center;
+    background: plum;
+    font-size: larger;
+}
+
+.home img {
+    max-width: 400px;
+    border-radius: 90%;
+    margin-top: 70px;
+}
+
+.about, .projects, .contact {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.projects .project {
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form input, .contact form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: yellow;
+}
+
+.contact form button {
+    padding: 10px;
+    background: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: blueviolet;
+    color:black;
+    text-align: center;
+    padding: 10px 0;
+}
+.projects{
+    background-color: yellowgreen;
+}
+.about{
+    background-color: gainsboro;
+}
+.contact-section {
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.column h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.column p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.social-links a.linkedin {
+    background-color: #0077b5;
+    height: 25px;
+}
+
+.social-links a.instagram {
+    background-color: #e1306c;
+    height: 25px;
+}
+
+.social-links a.tiktok {
+    background-color: #000000;
+    height: 25px;
+}
+
+.social-links a:hover {
+    opacity: 0.8;
+    height: 30px;
+    width: 4em;
+}
